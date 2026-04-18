@@ -8,10 +8,19 @@ load_dotenv()
 # Load model
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
+# Try Streamlit secrets first, fallback to environment variable
+try:
+    import streamlit as st
+    qdrant_url = st.secrets.get("QDRANT_URL", os.getenv("QDRANT_URL"))
+    qdrant_api_key = st.secrets.get("QDRANT_API_KEY", os.getenv("QDRANT_API_KEY"))
+except:
+    qdrant_url = os.getenv("QDRANT_URL")
+    qdrant_api_key = os.getenv("QDRANT_API_KEY")
+
 # Qdrant client
 client = QdrantClient(
-    url=os.getenv("QDRANT_URL"),
-    api_key=os.getenv("QDRANT_API_KEY"),
+    url=qdrant_url,
+    api_key=qdrant_api_key,
 )
 
 COLLECTION_NAME = "funds_collection"

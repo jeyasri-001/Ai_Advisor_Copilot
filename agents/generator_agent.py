@@ -6,7 +6,14 @@ import re
 
 load_dotenv()
 
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+# Try Streamlit secrets first, fallback to environment variable
+try:
+    import streamlit as st
+    api_key = st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY"))
+except:
+    api_key = os.getenv("GROQ_API_KEY")
+
+client = Groq(api_key=api_key)
 
 
 def generate_response(

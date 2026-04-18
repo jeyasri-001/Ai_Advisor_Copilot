@@ -2,10 +2,24 @@ from neo4j import GraphDatabase
 import os
 from difflib import get_close_matches
 import random
+from dotenv import load_dotenv
+
+load_dotenv()
+
+# Try Streamlit secrets first, fallback to environment variable
+try:
+    import streamlit as st
+    neo4j_uri = st.secrets.get("NEO4J_URI", os.getenv("NEO4J_URI"))
+    neo4j_username = st.secrets.get("NEO4J_USERNAME", os.getenv("NEO4J_USERNAME"))
+    neo4j_password = st.secrets.get("NEO4J_PASSWORD", os.getenv("NEO4J_PASSWORD"))
+except:
+    neo4j_uri = os.getenv("NEO4J_URI")
+    neo4j_username = os.getenv("NEO4J_USERNAME")
+    neo4j_password = os.getenv("NEO4J_PASSWORD")
 
 driver = GraphDatabase.driver(
-    os.getenv("NEO4J_URI"),
-    auth=(os.getenv("NEO4J_USERNAME"), os.getenv("NEO4J_PASSWORD"))
+    neo4j_uri,
+    auth=(neo4j_username, neo4j_password)
 )
 
 
