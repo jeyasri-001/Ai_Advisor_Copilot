@@ -31,11 +31,11 @@ def search_funds(query):
 
     query_vector = model.encode(query).tolist()
 
-    results = client.query_points(
+    results = client.search(
         collection_name=COLLECTION_NAME,
-        query=query_vector,
+        query_vector=query_vector,
         limit=5
-    ).points
+    )
 
     print("\n🎯 Top Matching Funds:\n")
 
