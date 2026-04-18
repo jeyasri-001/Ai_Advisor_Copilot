@@ -1,8 +1,8 @@
 streamlit
-groq
+sentence-transformers
 qdrant-client
-python-dotenv
 neo4j
+groq
+python-dotenv
 pandas
 requests
-numpy
