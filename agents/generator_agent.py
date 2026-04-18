@@ -6,14 +6,22 @@ import re
 
 load_dotenv()
 
-# Try Streamlit secrets first, fallback to environment variable
-try:
-    import streamlit as st
-    api_key = st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY"))
-except:
-    api_key = os.getenv("GROQ_API_KEY")
+# Global client variable
+_client = None
 
-client = Groq(api_key=api_key)
+def get_client():
+    """Lazy initialization of Groq client to avoid proxy issues in Streamlit Cloud"""
+    global _client
+    if _client is None:
+        # Try Streamlit secrets first, fallback to environment variable
+        try:
+            import streamlit as st
+            api_key = st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY"))
+        except:
+            api_key = os.getenv("GROQ_API_KEY")
+        
+        _client = Groq(api_key=api_key)
+    return _client
 
 
 def generate_response(
@@ -59,6 +67,7 @@ def generate_response(
         "content": query
     })
 
+    client = get_client()
     response = client.chat.completions.create(
         model="llama-3.3-70b-versatile",
         messages=messages,
