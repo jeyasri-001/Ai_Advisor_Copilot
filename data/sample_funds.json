@@ -1,0 +1,426 @@
+[
+  {
+    "fund_name": "ICICI Prudential Bluechip Fund - Growth",
+    "category": "Equity Scheme - Large Cap Fund",
+    "amc": "ICICI Prudential Mutual Fund",
+    "nav": 645.32,
+    "risk": "High",
+    "description": "ICICI Prudential Bluechip Fund focuses on large-cap stocks with high growth potential. High risk, suitable for long-term investors."
+  },
+  {
+    "fund_name": "HDFC Top 100 Fund - Growth",
+    "category": "Equity Scheme - Large Cap Fund",
+    "amc": "HDFC Mutual Fund",
+    "nav": 789.45,
+    "risk": "High",
+    "description": "HDFC Top 100 invests in India's top 100 companies. High growth potential with moderate volatility."
+  },
+  {
+    "fund_name": "SBI Bluechip Fund - Regular Growth",
+    "category": "Equity Scheme - Large Cap Fund",
+    "amc": "SBI Mutual Fund",
+    "nav": 512.67,
+    "risk": "High",
+    "description": "SBI Bluechip Fund provides exposure to quality large-cap stocks. Suitable for growth-oriented investors."
+  },
+  {
+    "fund_name": "Axis Midcap Fund - Growth",
+    "category": "Equity Scheme - Mid Cap Fund",
+    "amc": "Axis Mutual Fund",
+    "nav": 423.89,
+    "risk": "High",
+    "description": "Axis Midcap Fund invests in mid-cap companies with strong growth prospects. Higher risk, higher returns potential."
+  },
+  {
+    "fund_name": "Mirae Asset Emerging Bluechip Fund - Growth",
+    "category": "Equity Scheme - Large & Mid Cap Fund",
+    "amc": "Mirae Asset Mutual Fund",
+    "nav": 567.23,
+    "risk": "High",
+    "description": "Mirae Asset focuses on emerging bluechip companies. Balanced growth with moderate risk."
+  },
+  {
+    "fund_name": "Kotak Standard Multicap Fund - Growth",
+    "category": "Equity Scheme - Multi Cap Fund",
+    "amc": "Kotak Mutual Fund",
+    "nav": 634.56,
+    "risk": "High",
+    "description": "Kotak Multicap invests across large, mid, and small-cap stocks. Diversified equity exposure."
+  },
+  {
+    "fund_name": "Reliance Growth Fund - Regular Growth",
+    "category": "Equity Scheme - Large Cap Fund",
+    "amc": "Reliance Mutual Fund",
+    "nav": 698.12,
+    "risk": "High",
+    "description": "Reliance Growth Fund targets quality large-cap stocks. Strong track record of consistent returns."
+  },
+  {
+    "fund_name": "Franklin India Focused Equity Fund - Growth",
+    "category": "Equity Scheme - Large Cap Fund",
+    "amc": "Franklin Templeton Mutual Fund",
+    "nav": 456.78,
+    "risk": "High",
+    "description": "Franklin India focuses on best-in-class companies. Concentrated portfolio for growth."
+  },
+  {
+    "fund_name": "ICICI Prudential Balanced Advantage Fund - Growth",
+    "category": "Hybrid Scheme - Balanced Advantage Fund",
+    "amc": "ICICI Prudential Mutual Fund",
+    "nav": 234.56,
+    "risk": "Medium",
+    "description": "Dynamic allocation between equity and debt. Automatically adjusts based on market conditions."
+  },
+  {
+    "fund_name": "HDFC Balanced Advantage Fund - Growth",
+    "category": "Hybrid Scheme - Balanced Advantage Fund",
+    "amc": "HDFC Mutual Fund",
+    "nav": 267.89,
+    "risk": "Medium",
+    "description": "HDFC Balanced Advantage provides downside protection with growth potential. Ideal for moderate investors."
+  },
+  {
+    "fund_name": "Axis Equity Hybrid Fund - Growth",
+    "category": "Hybrid Scheme - Equity Hybrid Fund",
+    "amc": "Axis Mutual Fund",
+    "nav": 189.34,
+    "risk": "Medium",
+    "description": "Axis Equity Hybrid combines 65% equity and 35% debt. Balanced risk-return profile."
+  },
+  {
+    "fund_name": "SBI Magnum Balanced Fund - Growth",
+    "category": "Hybrid Scheme - Balanced Fund",
+    "amc": "SBI Mutual Fund",
+    "nav": 156.78,
+    "risk": "Medium",
+    "description": "SBI Magnum Balanced offers stability with growth. Suitable for conservative to moderate investors."
+  },
+  {
+    "fund_name": "Kotak Balanced Fund - Growth",
+    "category": "Hybrid Scheme - Balanced Fund",
+    "amc": "Kotak Mutual Fund",
+    "nav": 198.45,
+    "risk": "Medium",
+    "description": "Kotak Balanced Fund provides steady returns with lower volatility. Good for long-term wealth creation."
+  },
+  {
+    "fund_name": "ICICI Prudential Fixed Maturity Plan - Series 60 (Monthly)",
+    "category": "Debt Scheme - Fixed Maturity Plan",
+    "amc": "ICICI Prudential Mutual Fund",
+    "nav": 1045.67,
+    "risk": "Low",
+    "description": "Fixed maturity debt fund with monthly payouts. Low risk, predictable returns."
+  },
+  {
+    "fund_name": "HDFC Short Term Debt Fund - Growth",
+    "category": "Debt Scheme - Short Duration Fund",
+    "amc": "HDFC Mutual Fund",
+    "nav": 234.12,
+    "risk": "Low",
+    "description": "HDFC Short Term Debt focuses on short-duration bonds. Low risk, suitable for 1-3 year horizon."
+  },
+  {
+    "fund_name": "SBI Liquid Fund - Growth",
+    "category": "Debt Scheme - Liquid Fund",
+    "amc": "SBI Mutual Fund",
+    "nav": 456.89,
+    "risk": "Low",
+    "description": "SBI Liquid Fund offers high liquidity with stable returns. Perfect for emergency funds."
+  },
+  {
+    "fund_name": "Axis Liquid Fund - Growth",
+    "category": "Debt Scheme - Liquid Fund",
+    "amc": "Axis Mutual Fund",
+    "nav": 389.23,
+    "risk": "Low",
+    "description": "Axis Liquid Fund provides daily liquidity with competitive returns. Low risk investment."
+  },
+  {
+    "fund_name": "ICICI Prudential Gilt Fund - Growth",
+    "category": "Debt Scheme - Gilt Fund",
+    "amc": "ICICI Prudential Mutual Fund",
+    "nav": 567.34,
+    "risk": "Low",
+    "description": "ICICI Gilt Fund invests in government securities. Safest debt option with government backing."
+  },
+  {
+    "fund_name": "HDFC Gilt Fund - Growth",
+    "category": "Debt Scheme - Gilt Fund",
+    "amc": "HDFC Mutual Fund",
+    "nav": 612.45,
+    "risk": "Low",
+    "description": "HDFC Gilt Fund focuses on government bonds. Zero credit risk, suitable for risk-averse investors."
+  },
+  {
+    "fund_name": "SBI Magnum Income Fund - Growth",
+    "category": "Debt Scheme - Medium to Long Duration Fund",
+    "amc": "SBI Mutual Fund",
+    "nav": 178.56,
+    "risk": "Low",
+    "description": "SBI Magnum Income provides steady income from bonds. Low to medium risk."
+  },
+  {
+    "fund_name": "Kotak Corporate Bond Fund - Growth",
+    "category": "Debt Scheme - Corporate Bond Fund",
+    "amc": "Kotak Mutual Fund",
+    "nav": 289.67,
+    "risk": "Low",
+    "description": "Kotak Corporate Bond invests in high-quality corporate bonds. Low risk with better yields."
+  },
+  {
+    "fund_name": "Franklin India Ultra Short Bond Fund - Growth",
+    "category": "Debt Scheme - Ultra Short Duration Fund",
+    "amc": "Franklin Templeton Mutual Fund",
+    "nav": 234.78,
+    "risk": "Low",
+    "description": "Franklin India Ultra Short Bond offers short-term debt exposure. Very low risk, liquid."
+  },
+  {
+    "fund_name": "Reliance Liquid Fund - Growth",
+    "category": "Debt Scheme - Liquid Fund",
+    "amc": "Reliance Mutual Fund",
+    "nav": 412.34,
+    "risk": "Low",
+    "description": "Reliance Liquid Fund provides easy access to funds with stable returns. Ideal for parking cash."
+  },
+  {
+    "fund_name": "Mirae Asset Emerging Bluechip Fund - Regular Growth",
+    "category": "Equity Scheme - Large & Mid Cap Fund",
+    "amc": "Mirae Asset Mutual Fund",
+    "nav": 534.12,
+    "risk": "High",
+    "description": "Mirae Asset Regular Growth focuses on emerging quality companies. Moderate to high growth."
+  },
+  {
+    "fund_name": "Axis Small Cap Fund - Growth",
+    "category": "Equity Scheme - Small Cap Fund",
+    "amc": "Axis Mutual Fund",
+    "nav": 312.45,
+    "risk": "High",
+    "description": "Axis Small Cap invests in small-cap stocks. High risk, high growth potential."
+  },
+  {
+    "fund_name": "ICICI Prudential Small Cap Fund - Growth",
+    "category": "Equity Scheme - Small Cap Fund",
+    "amc": "ICICI Prudential Mutual Fund",
+    "nav": 267.89,
+    "risk": "High",
+    "description": "ICICI Small Cap focuses on emerging small-cap companies. Aggressive growth strategy."
+  },
+  {
+    "fund_name": "SBI Small Cap Fund - Regular Growth",
+    "category": "Equity Scheme - Small Cap Fund",
+    "amc": "SBI Mutual Fund",
+    "nav": 289.56,
+    "risk": "High",
+    "description": "SBI Small Cap provides exposure to small-cap growth stories. High volatility, high returns."
+  },
+  {
+    "fund_name": "HDFC Dividend Yield Fund - Growth",
+    "category": "Equity Scheme - Dividend Yield Fund",
+    "amc": "HDFC Mutual Fund",
+    "nav": 456.78,
+    "risk": "Medium",
+    "description": "HDFC Dividend Yield focuses on dividend-paying stocks. Moderate risk with income."
+  },
+  {
+    "fund_name": "Kotak Dividend Yield Fund - Growth",
+    "category": "Equity Scheme - Dividend Yield Fund",
+    "amc": "Kotak Mutual Fund",
+    "nav": 389.12,
+    "risk": "Medium",
+    "description": "Kotak Dividend Yield invests in high-dividend stocks. Stable returns with growth."
+  },
+  {
+    "fund_name": "Reliance Dividend Yield Fund - Growth",
+    "category": "Equity Scheme - Dividend Yield Fund",
+    "amc": "Reliance Mutual Fund",
+    "nav": 423.45,
+    "risk": "Medium",
+    "description": "Reliance Dividend Yield provides regular income and capital appreciation. Balanced approach."
+  },
+  {
+    "fund_name": "Franklin India Equity Fund - Growth",
+    "category": "Equity Scheme - Large Cap Fund",
+    "amc": "Franklin Templeton Mutual Fund",
+    "nav": 512.34,
+    "risk": "High",
+    "description": "Franklin India Equity offers diversified large-cap exposure. Strong fundamentals focus."
+  },
+  {
+    "fund_name": "Axis Focused 25 Fund - Growth",
+    "category": "Equity Scheme - Large Cap Fund",
+    "amc": "Axis Mutual Fund",
+    "nav": 478.56,
+    "risk": "High",
+    "description": "Axis Focused 25 invests in 25 best-in-class companies. Concentrated, high-conviction portfolio."
+  },
+  {
+    "fund_name": "Mirae Asset Emerging Leaders Fund - Growth",
+    "category": "Equity Scheme - Mid Cap Fund",
+    "amc": "Mirae Asset Mutual Fund",
+    "nav": 389.23,
+    "risk": "High",
+    "description": "Mirae Asset Emerging Leaders targets mid-cap growth stories. High growth potential."
+  },
+  {
+    "fund_name": "SBI Magnum Multi Asset Fund - Growth",
+    "category": "Hybrid Scheme - Multi Asset Fund",
+    "amc": "SBI Mutual Fund",
+    "nav": 234.67,
+    "risk": "Medium",
+    "description": "SBI Magnum Multi Asset diversifies across equity, debt, and gold. Balanced portfolio."
+  },
+  {
+    "fund_name": "HDFC Hybrid Equity Fund - Growth",
+    "category": "Hybrid Scheme - Equity Hybrid Fund",
+    "amc": "HDFC Mutual Fund",
+    "nav": 267.34,
+    "risk": "Medium",
+    "description": "HDFC Hybrid Equity combines 70% equity and 30% debt. Growth with stability."
+  },
+  {
+    "fund_name": "Kotak Equity Hybrid Fund - Growth",
+    "category": "Hybrid Scheme - Equity Hybrid Fund",
+    "amc": "Kotak Mutual Fund",
+    "nav": 198.78,
+    "risk": "Medium",
+    "description": "Kotak Equity Hybrid provides equity upside with debt downside protection."
+  },
+  {
+    "fund_name": "Reliance Balanced Advantage Fund - Growth",
+    "category": "Hybrid Scheme - Balanced Advantage Fund",
+    "amc": "Reliance Mutual Fund",
+    "nav": 245.89,
+    "risk": "Medium",
+    "description": "Reliance Balanced Advantage dynamically allocates between equity and debt. Smart allocation."
+  },
+  {
+    "fund_name": "Franklin India Balanced Fund - Growth",
+    "category": "Hybrid Scheme - Balanced Fund",
+    "amc": "Franklin Templeton Mutual Fund",
+    "nav": 178.45,
+    "risk": "Medium",
+    "description": "Franklin India Balanced offers 50-50 equity-debt mix. Steady growth with lower risk."
+  },
+  {
+    "fund_name": "ICICI Prudential Banking and Financial Services Fund - Growth",
+    "category": "Equity Scheme - Sector Fund",
+    "amc": "ICICI Prudential Mutual Fund",
+    "nav": 534.67,
+    "risk": "High",
+    "description": "ICICI Banking Fund focuses on banking and financial sector. Sector-specific growth."
+  },
+  {
+    "fund_name": "HDFC Infrastructure Fund - Growth",
+    "category": "Equity Scheme - Sector Fund",
+    "amc": "HDFC Mutual Fund",
+    "nav": 412.34,
+    "risk": "High",
+    "description": "HDFC Infrastructure invests in infrastructure companies. Long-term growth potential."
+  },
+  {
+    "fund_name": "SBI Technology Fund - Growth",
+    "category": "Equity Scheme - Sector Fund",
+    "amc": "SBI Mutual Fund",
+    "nav": 367.89,
+    "risk": "High",
+    "description": "SBI Technology focuses on IT and tech companies. High growth, high volatility."
+  },
+  {
+    "fund_name": "Axis Midcap Value Fund - Growth",
+    "category": "Equity Scheme - Mid Cap Fund",
+    "amc": "Axis Mutual Fund",
+    "nav": 345.67,
+    "risk": "High",
+    "description": "Axis Midcap Value invests in undervalued mid-cap stocks. Value + growth combination."
+  },
+  {
+    "fund_name": "Kotak Emerging Equity Fund - Growth",
+    "category": "Equity Scheme - Mid Cap Fund",
+    "amc": "Kotak Mutual Fund",
+    "nav": 289.45,
+    "risk": "High",
+    "description": "Kotak Emerging Equity targets emerging mid-cap companies. Growth-oriented approach."
+  },
+  {
+    "fund_name": "Reliance Growth Fund - Regular Growth",
+    "category": "Equity Scheme - Large Cap Fund",
+    "amc": "Reliance Mutual Fund",
+    "nav": 623.45,
+    "risk": "High",
+    "description": "Reliance Growth focuses on quality large-cap stocks. Consistent performance."
+  },
+  {
+    "fund_name": "Franklin India Focused Equity Fund - Regular Growth",
+    "category": "Equity Scheme - Large Cap Fund",
+    "amc": "Franklin Templeton Mutual Fund",
+    "nav": 423.78,
+    "risk": "High",
+    "description": "Franklin India Focused offers concentrated large-cap exposure. Quality-focused."
+  },
+  {
+    "fund_name": "ICICI Prudential Liquid Fund - Growth",
+    "category": "Debt Scheme - Liquid Fund",
+    "amc": "ICICI Prudential Mutual Fund",
+    "nav": 478.23,
+    "risk": "Low",
+    "description": "ICICI Liquid Fund provides instant liquidity with competitive returns. Safest option."
+  },
+  {
+    "fund_name": "SBI Overnight Fund - Growth",
+    "category": "Debt Scheme - Overnight Fund",
+    "amc": "SBI Mutual Fund",
+    "nav": 412.56,
+    "risk": "Low",
+    "description": "SBI Overnight Fund invests in overnight securities. Ultra-safe, highly liquid."
+  },
+  {
+    "fund_name": "HDFC Short Term Debt Fund - Regular Growth",
+    "category": "Debt Scheme - Short Duration Fund",
+    "amc": "HDFC Mutual Fund",
+    "nav": 267.89,
+    "risk": "Low",
+    "description": "HDFC Short Term Debt focuses on bonds with 1-3 year maturity. Low risk, stable returns."
+  },
+  {
+    "fund_name": "Axis Treasury Advantage Fund - Growth",
+    "category": "Debt Scheme - Short Duration Fund",
+    "amc": "Axis Mutual Fund",
+    "nav": 234.45,
+    "risk": "Low",
+    "description": "Axis Treasury Advantage invests in government securities. Zero credit risk."
+  },
+  {
+    "fund_name": "Kotak Low Duration Fund - Growth",
+    "category": "Debt Scheme - Low Duration Fund",
+    "amc": "Kotak Mutual Fund",
+    "nav": 289.78,
+    "risk": "Low",
+    "description": "Kotak Low Duration offers short-term debt exposure. Low interest rate risk."
+  },
+  {
+    "fund_name": "Reliance Short Term Bond Fund - Growth",
+    "category": "Debt Scheme - Short Duration Fund",
+    "amc": "Reliance Mutual Fund",
+    "nav": 256.34,
+    "risk": "Low",
+    "description": "Reliance Short Term Bond focuses on short-duration bonds. Stable, predictable returns."
+  },
+  {
+    "fund_name": "Franklin India Low Duration Fund - Growth",
+    "category": "Debt Scheme - Low Duration Fund",
+    "amc": "Franklin Templeton Mutual Fund",
+    "nav": 267.12,
+    "risk": "Low",
+    "description": "Franklin India Low Duration provides short-term debt with stability. Low volatility."
+  },
+  {
+    "fund_name": "Mirae Asset Hybrid Equity Fund - Growth",
+    "category": "Hybrid Scheme - Equity Hybrid Fund",
+    "amc": "Mirae Asset Mutual Fund",
+    "nav": 212.34,
+    "risk": "Medium",
+    "description": "Mirae Asset Hybrid Equity combines equity growth with debt stability. Balanced approach."
+  }
+]
