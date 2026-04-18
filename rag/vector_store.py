@@ -27,30 +27,38 @@ COLLECTION_NAME = "funds_collection"
 
 
 def search_funds(query):
-    print(f"\n🔍 Searching for: {query}")
+    try:
+        print(f"\n🔍 Searching for: {query}")
 
-    query_vector = model.encode(query).tolist()
+        query_vector = model.encode(query).tolist()
+        print(f"✅ Query vector generated: {len(query_vector)} dimensions")
 
-    results = client.search(
-        collection_name=COLLECTION_NAME,
-        query_vector=query_vector,
-        limit=5
-    )
+        results = client.search(
+            collection_name=COLLECTION_NAME,
+            query_vector=query_vector,
+            limit=5
+        )
+        print(f"✅ Search completed: {len(results)} results")
 
-    print("\n🎯 Top Matching Funds:\n")
+        print("\n🎯 Top Matching Funds:\n")
 
-    fund_results = []
-    for i, result in enumerate(results):
-        payload = result.payload
-        fund_results.append(payload)
+        fund_results = []
+        for i, result in enumerate(results):
+            payload = result.payload
+            fund_results.append(payload)
 
-        print(f"{i+1}. {payload['fund_name']}")
-        print(f"   Category: {payload['category']}")
-        print(f"   AMC: {payload['amc']}")
-        print(f"   NAV: {payload['nav']}")
-        print("-" * 40)
-    
-    return fund_results
+            print(f"{i+1}. {payload.get('fund_name', 'Unknown')}")
+            print(f"   Category: {payload.get('category', 'N/A')}")
+            print(f"   AMC: {payload.get('amc', 'N/A')}")
+            print(f"   NAV: {payload.get('nav', 'N/A')}")
+            print("-" * 40)
+        
+        return fund_results
+    except Exception as e:
+        print(f"❌ Error in search_funds: {str(e)}")
+        import traceback
+        traceback.print_exc()
+        return []
 
 
 if __name__ == "__main__":
