@@ -20,7 +20,11 @@ def get_client():
         except:
             api_key = os.getenv("GROQ_API_KEY")
         
-        _client = Groq(api_key=api_key)
+        # Initialize without proxy settings to avoid conflicts
+        _client = Groq(
+            api_key=api_key,
+            http_client=None
+        )
     return _client
 
 
