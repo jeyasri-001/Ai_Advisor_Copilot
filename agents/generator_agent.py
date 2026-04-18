@@ -10,21 +10,18 @@ load_dotenv()
 _client = None
 
 def get_client():
-    """Lazy initialization of Groq client to avoid proxy issues in Streamlit Cloud"""
+    """Lazy initialization of Groq client"""
     global _client
     if _client is None:
         # Try Streamlit secrets first, fallback to environment variable
         try:
             import streamlit as st
-            api_key = st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY"))
+            api_key = st.secrets["GROQ_API_KEY"]
         except:
             api_key = os.getenv("GROQ_API_KEY")
         
-        # Initialize without proxy settings to avoid conflicts
-        _client = Groq(
-            api_key=api_key,
-            http_client=None
-        )
+        # Simple initialization like the working example
+        _client = Groq(api_key=api_key)
     return _client
 
 
